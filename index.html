@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="back">
+    
+    <header>
+        <img class="logo" src="./assets/logo.png" alt="logo" width="100px">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <button class="cta">Contact</button>
+    </header>
+    
+    <div class="sign-up">
+        <h1 class="mainh">Sign Up</h1>
+        <form action="backend.***">
+            <input class="input-box" name="Fname" type="text" placeholder="First Name">
+            <input class="input-box" name="Lname" type="text" placeholder="Last Name">
+
+            <input class="input-box" name="Pass" type="text" placeholder="Email address or phone number">
+            <input class="input-box" name="Pass" type="password" placeholder="Password">
+            <input class="input-box" name="Pass" type="password" placeholder="Confirm"><br />
+            
+            <p class="datepara">Date Of Birth:</p>
+            <input class="dob" id="birth" name="birth" type="date">
+
+            <p class="datepara">Gender:</p>
+            <label for="male">
+            <input type="radio" name="gender" id="male">Male
+            </label>
+            <label for="female">
+            <input type="radio" name="gender" id="female">Female
+            </label>
+            <label for="other">
+            <input type="radio" name="gender" id="other">Other
+            </label>
+            <br />
+
+            <div class="gree">
+            <p><input class="chk" type="checkbox"><a class="s2a" href="./terms.html" target="_blank">I
+                    agree to the terms of service.</a></p>
+            </div>
+            
+            <a href="#"><button type="button" class="sign-up-btn">Sign up</button></a>
+
+            <p class="already">Already have an account. <a class="sin" href="#">Sign in</a></p>
+
+        </form>
+    </div>
+</body>
+
+</html>
